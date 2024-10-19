@@ -3,7 +3,8 @@ import 'package:http/http.dart' as http;
 import '../models/todo.dart';
 
 class TodoService {
-  final String baseUrl = 'http://10.0.2.2:3000/todos'; // Use your API base URL
+ final String baseUrl = 'http://10.0.2.2:5000/todos'; // Use the correct port and base URL
+
 
   Future<List<Todo>> getTodos() async {
     final response = await http.get(Uri.parse(baseUrl));
