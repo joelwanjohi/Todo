@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../services/todo_service.dart';
-import '../models/todo.dart';
+import '../models/task_model.dart';
 
 class AddTodoScreen extends StatelessWidget {
   final TextEditingController _titleController = TextEditingController();
